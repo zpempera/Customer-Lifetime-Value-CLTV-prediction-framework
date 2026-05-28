@@ -4,8 +4,6 @@ Predicting customer lifetime value for the Olist Brazilian e-commerce marketplac
 combining **probabilistic (Buy-Till-You-Die)** models with a **machine-learning regression**
 approach, and translating the results into actionable marketing strategy.
 
-> Lab project — *AI for Communication & Marketing*, B.Sc. Artificial Intelligence.
-
 ---
 
 ## Project Overview
