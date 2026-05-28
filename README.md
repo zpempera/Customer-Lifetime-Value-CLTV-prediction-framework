@@ -34,14 +34,6 @@ allocation and loyalty campaigns. This project builds an end-to-end CLTV framewo
 `Python` · `pandas` · `lifetimes` (BG/NBD + Gamma-Gamma) · `scikit-learn` · `XGBoost` ·
 `matplotlib` / `seaborn`
 
-## Repository Structure
-
-\`\`\`
-notebooks/      Jupyter notebook with the full analysis
-presentation/   2-slide executive summary (PDF)
-images/         key visualizations
-\`\`\`
-
 ## Reproducing the Analysis
 
 The Olist dataset is downloaded at runtime via the Kaggle API (not committed to the repo).
