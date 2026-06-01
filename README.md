@@ -36,11 +36,20 @@ allocation and loyalty campaigns. This project builds an end-to-end CLTV framewo
 
 ## Reproducing the Analysis
 
-The Olist dataset is downloaded at runtime via the Kaggle API (not committed to the repo).
+The repository now uses a **standard Jupyter notebook** (not a Colab-specific notebook). The
+Olist dataset is downloaded at runtime via `kagglehub` and is not committed to the repo.
 
-1. Install dependencies: `pip install -r requirements.txt`
-2. Open `notebooks/cltv_analysis.ipynb` (designed for Google Colab).
-3. Provide a Kaggle API token when prompted — the notebook downloads the dataset automatically.
+1. Create and activate a fresh Python environment.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Start Jupyter: `jupyter notebook` or `jupyter lab`
+4. Open `Customer_Lifetime_Value_CLTV_prediction_framework.ipynb`.
+5. Run the cells from top to bottom.
+
+### Troubleshooting notebook preview/runtime errors
+
+- **GitHub preview still says "Unable to render"**: refresh the page and make sure you are viewing the branch/commit that contains the cleaned notebook. The notebook is now output-free and has no Colab metadata.
+- **Import error in the setup cell**: run `pip install -r requirements.txt` in the same environment that starts Jupyter, then restart the Jupyter kernel.
+- **Dataset download error**: make sure the environment has internet access. If Kaggle asks for credentials in your environment, sign in to Kaggle or configure your Kaggle API token, then rerun the setup cell.
 
 ## Methodology Notes
 
