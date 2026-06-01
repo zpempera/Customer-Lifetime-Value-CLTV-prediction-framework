@@ -6,6 +6,10 @@ approach, and translating the results into actionable marketing strategy.
 
 ---
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zpempera/Customer-Lifetime-Value-CLTV-prediction-framework/blob/main/Customer_Lifetime_Value_CLTV_prediction_framework.ipynb)
+
+> **Attention** This notebook works best in Colab.
+
 ## Project Overview
 
 Olist's marketing team needs to forecast the future value of its customer base to plan budget
